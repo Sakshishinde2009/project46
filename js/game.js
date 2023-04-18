@@ -169,7 +169,7 @@ class Game{
     {       
             var x, y;
             //write a code to create an obstacle at random x position.
-            x = Math.round(random(10,300))
+            x = random(0,width-100);
             y = 0
             var obstacle = createSprite(x, y);
             obstacle.addImage("obstacle", obstacleImage);
